@@ -35,6 +35,9 @@ yarn build
 After building the application for production, you can build the mobile app:
 
 ```bash
+npx cap add ios
+npx cap add android
+
 npx cap copy
 npx cap open android
 # or
